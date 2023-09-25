@@ -1,0 +1,19 @@
+So, like we know about #include <> and #include ""
+
+To see where the gcc compiler searches for the system directories when <>
+ $ gcc -v -x c -E /dev/null
+
+ we get a part of the output :
+ #include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+
+So, if we want to add system directories while compiling we can use -I tag while compiling and give the directory
+
+also -iquote for the search in the "" file directory.
+
+The ld error means that the error is the linker phase
+
+
