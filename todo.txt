@@ -1,0 +1,31 @@
+to do read about the jump statement
+
+and also about the inline command in particular
+need to complete chapter 3 today
+Also need to finish chapter -- the tail calls and stuff
+
+need to read why reg:4 is there in the bpf_insn
+
+REad about the XDP onlce again
+Good post by kernel function bpf_trace_printk(). Andrii Nak‐
+ryiko wrote a good post on this on his blog
+
+MAKEFILES
+
+Some Linux distributions provide a package that includes bpftool,
+or you can compile it from source code. You can find more details
+about installing or building this tool on Quentin Monnet’s blog, as
+well as additional documentation and usage on the Cilium site.
+
+For an overview of eBPF architecture, I recommend the BPF and
+XDP Reference Guide that’s included as part of the Cilium project’s
+documentation. If you’d like more details, the kernel documenta‐
+tion describes the eBPF instructions and encoding quite clearly.
+
+The kernel setting CONFIG_BPF_JIT needs to be enabled to take advantage of JIT compilation, and it can be
+enabled or disabled at runtime with the net.core.bpf_jit_enable sysctl setting. See the docs for more
+information on JIT support on different chip architectures.
+
+For a lot more detail on tail calls and BPF to BPF calls, there’s an
+excellent post by Jakub Sitnicki on Cloudflare’s blog: “Assembly
+within! BPF tail calls on x86 and ARM”.
