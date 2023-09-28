@@ -10,14 +10,7 @@ REad about the XDP onlce again
 Good post by kernel function bpf_trace_printk(). Andrii Nak‐
 ryiko wrote a good post on this on his blog
 
-MAKEFILES
 
-Some Linux distributions provide a package that includes bpftool,
-or you can compile it from source code. You can find more details
-about installing or building this tool on Quentin Monnet’s blog, as
-well as additional documentation and usage on the Cilium site.
-
-For an overview of eBPF architecture, I recommend the BPF and
 XDP Reference Guide that’s included as part of the Cilium project’s
 documentation. If you’d like more details, the kernel documenta‐
 tion describes the eBPF instructions and encoding quite clearly.

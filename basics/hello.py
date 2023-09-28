@@ -12,11 +12,11 @@ from bcc import BPF
 written in C code, and it’s this part: """
 
 # This is the code that runs in the
-# terminal and the rest of the code exists in the 
+# kernel and the rest of the code exists in the 
 # user space only. This C code is executed 
 # due to a some event and we attach it to a hook or 
 # kprobe which then runs it directly in the 
-# terminal.
+# kernel.
 
 """ All the eBPF program does is use a helper function, bpf_trace_printk(), to write a
 message. Helper functions are another feature that distinguishes “extended” BPF

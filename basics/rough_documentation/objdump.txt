@@ -1,1 +1,12 @@
 We will be using this thing aggresively in the future to see the byte code of the language
+
+okay so objdump gives us the disassembly of the code, 
+
+but we will use llvm-objump because that is required to disassembly the ebpf code that we write.
+
+read the man pages of both obj adn llvm-obj for more clarity
+
+Link for understanding static, extern and volatile : https://www.youtube.com/watch?v=ZLhnZAbcs2s&ab_channel=SteppeSchool
+Storage classes basics : https://www.geeksforgeeks.org/storage-classes-in-c/ 
+Link for understanding the process memory : https://www.youtube.com/watch?v=gisfT7Z2ewY&ab_channel=JoeChiu 
+webpage for ome assembly related stuff : https://docs.oracle.com/cd/E19455-01/806-3773/assemblersyntax-3/index.html 

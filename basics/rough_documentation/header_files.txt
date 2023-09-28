@@ -16,4 +16,6 @@ also -iquote for the search in the "" file directory.
 
 The ld error means that the error is the linker phase
 
+.rodata stands for read-only data
+and .bss stands for block starting symbol
 
