@@ -10,7 +10,7 @@ target: pre-requistes
 
 Make generates the target file from the pre-req based on the rules
 It tracks t=dependencies in its own
-$^ can be used to represent the prereq files
+$< can be used to represent the prereq files
 $@ for the target files
 
 We add flags to it and stuff
