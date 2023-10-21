@@ -1,8 +1,6 @@
 # https://www.youtube.com/watch?v=viQRxaxs70c&ab_channel=TheDigitalFolks
 TARGET = xdp_ping
 BPF_OBJ = ${TARGET:=.bpf.o}
-ARCH = $(shell uname -m | sed 's/x86_64/x86/' | sed 's/aarch64/arm64/')
-
 
 all: $(TARGET) $(BPF_OBJ) 
 .PHONY: all 
