@@ -1,3 +1,25 @@
+# to-do
+
+## For basic security
+
+Ok So we have a lot to do in this :
+Let's start by noting it down
+
+1) Firstly, a few suggestions fr Shashank D - We need to improve on the model . Make a system architecture and then start working on it.Ok, so what is up with the system architecture - Need to design the flow of the program that we plan to build
+
+2) Need to read about how DOS is prevented in general . And then write XDP code for this. So need to look into rate learning algorithms and pick and implement a simple one.
+
+3) Need to do the XDP tutorial and work start of with a basic program.
+
+4) Improvement would be to look into the distribution of packet processing. Hashig and load balancing and also need to look Into Kataran
+
+5) Look into Spining VM's for experimentaiton instead of on the raw machine.
+
+
+
+
+## Rough - todo 
+
 to do read about the jump statement
 
 re-read tailcalls to understand better
@@ -49,3 +71,5 @@ eBPF load balancer in just over 15 minutes!
 In core (ch5)
 - what is <anon>?
 - when I run my program why do I get prg name as python3 instead of hello-buffer-co (15 word limit)
+
+> If you’d like to better understand how the BTF type data is generated and de-duplicated, there is another excellent blog post from Andrii Nakryiko on the subject.
