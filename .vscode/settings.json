@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "libxdp.h": "c",
+        "err.h": "c",
+        "libbpf.h": "c",
+        "if_link.h": "c",
+        "bpf.h": "c",
+        "libbpf_common.h": "c",
+        "stdbool.h": "c",
+        "netdev.h": "c",
+        "fcntl.h": "c",
+        "if.h": "c"
+    }
+}
