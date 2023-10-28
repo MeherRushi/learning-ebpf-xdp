@@ -23,3 +23,15 @@ I guess that on the ARM32 system (Raspbian) /usr/include/asm might linked to /us
 # Credits
 
 This is based on the tutorial in the [repo](https://github.com/xdp-project/xdp-tutorial)
+
+
+## NOTE
+
+I have written my own comments while solving the assignments which are for my future reference
+
+
+I should have forked and started working on the repo directly, but I already started and reached a certain point of progress by the time I realised that cloned the repo from upstream without forking.
+
+Initially I made the effort to write my own Make files but after a lot of failed attempts and complicated navigation that the tutorial had posed, I decided to copy the files and use them as and when needed. 
+
+I initially also had a more clean directory structure in mind (which doesn't require me to repeadedly clone the libxdp repo) but I decided not to mess with it due make files configurations
